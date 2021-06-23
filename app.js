@@ -19,5 +19,4 @@ require("./server/config/passport/index")(app, data.users);
 
 require("./server/config/routes")(app, controllers);
 
-
 app.listen(config.port);
