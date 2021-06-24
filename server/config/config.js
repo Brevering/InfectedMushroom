@@ -8,11 +8,11 @@ module.exports = {
     development: {
         rootPath: getRootPath,
         db: localHostConnectionString,
-        port: Number(process.env.PORT || 3001)
+        port: Number(process.env.PORT || 80)
     },
     production: {
         rootPath: getRootPath,
         db: process.env.MONGO_DB_CONN_STRING,
-        port: Number(process.env.PORT || 3001)
+        port: Number(process.env.PORT || 80)
     }
 };
