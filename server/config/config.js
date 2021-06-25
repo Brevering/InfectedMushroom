@@ -2,7 +2,7 @@
 
 const path = require("path");
 const getRootPath = path.normalize(path.join(__dirname, "/../../"));
-const localHostConnectionString = "mongodb+srv://Brevering:Parol@ribame4@clusterzero.lqsso.mongodb.net/sample_airbnb?retryWrites=true&w=majority";
+const localHostConnectionString = "";
 
 module.exports = {
     development: {
